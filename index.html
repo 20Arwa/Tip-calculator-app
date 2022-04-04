@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend Mentor | Tip calculator app</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">    
+    </head>
+    <body>
+        <div class="container">
+            <header>S P L T <br> T T E R</header>
+            <form class="content">
+                <div class="calucate">
+                    <div class="bill">
+                        <p>Bill</p>
+                        <input type="text" name="bill" placeholder="0">
+                    </div>
+                    <div class="tip">
+                        <p>Select Tip %</p>
+                        <div><span>5</span>%</div>
+                        <div><span>10</span>%</div>
+                        <div><span>15</span>%</div>
+                        <div><span>25</span>%</div>
+                        <div><span>50</span>%</div>
+                        <input type="text" name="tip" placeholder="Custum">
+                    </div>
+                    <div class="people">
+                        <div>
+                            <p>Number of People</p>
+                            <span>Can't be zero</span>
+                        </div>
+                        <input type="text" name="people" placeholder="0">
+                    </div>
+                </div>
+                <div class="result">
+                    <div>
+                        <div>
+                            <h5>Tip Amount</h5>
+                            <p>/ Person</p>
+                        </div>
+                        <h1>$0.00</h1>
+                    </div>
+                    <div>
+                        <div>
+                            <h5>Total</h5>
+                            <p>/ Person</p>
+                        </div>
+                        <h1>$0.00</h1>
+                    </div>
+                    <input type="submit" value="RESET">
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/20Arwa">20Arwa</a>.
+            </p>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
